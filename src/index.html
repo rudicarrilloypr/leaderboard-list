@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaderboard List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Leaderboard</title>
 </head>
 <body>
-    <!-- your layout here -->
+    <div>
+        <h1>Leaderboard</h1>
+        <div>
+            <h2>Recent scores</h2>
+            <button>Refresh</button>
+            <table id="scoreTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Score</th>
+                </tr>
+                <!-- Scores will be inserted here -->
+            </table>
+        </div>
+    </div>
+    <div>
+        <h2>Add your score</h2>
+        <input type="text" id="nameInput" placeholder="Your name">
+        <input type="text" id="scoreInput" placeholder="Your score">
+        <button id="submitButton">Submit</button>
+    </div>
 </body>
 </html>

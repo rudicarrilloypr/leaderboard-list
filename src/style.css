@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0 4vw;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 45%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleMain {
+  display: inline;
+  font-size: 6.5vw;
+}
+
+.recent-scores-title,
+.add-your-score-title {
+  font-size: 4vw;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.table-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.7vw 0.3vw;
+}
+
+.table-entry:nth-child(even) {
+  background-color: #e6e3e3; /* gris claro */
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.table-entry:nth-child(odd) {
+  background-color: #fff; /* blanco */
+}
+
+.container > * {
+  font-size: 2vw;
+  margin: 1vw;
+  font-weight: 600;
+}
+
+input {
+  width: 75%;
+  height: 2vw;
+  margin-bottom: 1vw;
+  border: black solid 0.3vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+#scoreTable {
+  border: black solid 0.3vw;
+  width: 100%;
+}
+
+button {
+  font-size: 1.5vw;
+  margin-top: 0;
+  padding: 0.5vw;
+  box-shadow: 0.5vw 0.5vw 0 0;
+  font-weight: 600;
+  border: black solid 0.3vw;
+}
+
+.submit-button {
+  width: 20%;
+  align-self: flex-start;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

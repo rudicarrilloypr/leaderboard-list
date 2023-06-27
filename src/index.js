@@ -1,4 +1,5 @@
-// eslint-disable-next-line import/extensions, no-unused-vars
-import { createLeaderboard } from './leaderboard';
+import './style.css'; // Asegúrate de que la ruta a tu archivo CSS sea correcta
+// eslint-disable-next-line no-unused-vars
+import { createLeaderboard } from './leaderboard.js';
 
-// use createLeaderboard function
+// Use la función createLeaderboard aquí

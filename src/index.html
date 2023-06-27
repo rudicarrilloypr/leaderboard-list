@@ -9,25 +9,35 @@
     <title>Leaderboard</title>
 </head>
 <body>
-    <div>
-        <h1>Leaderboard</h1>
-        <div>
-            <h2>Recent scores</h2>
-            <button>Refresh</button>
+    <header>
+        <div class="titleContainer">
+            <h1 class="titleMain">Leaderboard</h1>
+        </div>
+    </header>
+    <main class="app-container">
+        <div class="container">
+            <div class="header-container">
+                <h2 class="recent-scores-title">Recent scores</h2>
+                <button class="btn">Refresh</button>
+            </div>
             <table id="scoreTable">
-                <tr>
+                <tr class="table-entry">
                     <th>Name</th>
                     <th>Score</th>
                 </tr>
                 <!-- Scores will be inserted here -->
             </table>
         </div>
-    </div>
-    <div>
-        <h2>Add your score</h2>
-        <input type="text" id="nameInput" placeholder="Your name">
-        <input type="text" id="scoreInput" placeholder="Your score">
-        <button id="submitButton">Submit</button>
-    </div>
+        <div class="container">
+            <div class="header-container">
+                <h2 class="add-your-score-title">Add your score</h2>
+            </div>
+            <div class="input-container">
+                <input type="text" id="nameInput" placeholder="Your name">
+                <input type="text" id="scoreInput" placeholder="Your score">
+                <button id="submitButton" class="btn submit-button">Submit</button>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

@@ -1,4 +1,6 @@
 const path = require('path');
+// eslint-disable-next-line import/no-extraneous-dependencies
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -19,5 +21,18 @@ module.exports = {
         },
       },
     ],
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'src', 'index.html'),
+    }),
+  ],
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+      watch: true,
+    },
+    compress: true,
+    port: 8080,
   },
 };

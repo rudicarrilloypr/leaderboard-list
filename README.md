@@ -139,8 +139,7 @@ You can deploy this project using:
 <!--- Future Features ---->
 
 ## <a href="#future-features"></a>🔮 Future Features
-- send and receive data from API.
-- Submit and Refresh button function
+- Update style
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

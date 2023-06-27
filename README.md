@@ -70,23 +70,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo (coming soon) <a name="live-demo"></a>
-
-<!---[Click here](https://rudicarrilloypr.github.io/todo-list/dist/) to see the project's deployment on GitHub pages.--->
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!--- Future Features ---->
-
-### <a href="#future-features"></a>🔮 Future Features
-- Refresh Button
-- Add scores function
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -150,6 +133,14 @@ You can deploy this project using:
 - LinkedIn: [Rudi Carrillo](https://www.linkedin.com/in/rudi-carrillo/)
 - Instagram: [@__rudicarrillo](https://www.instagram.com/_rudicarrillo/)
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--- Future Features ---->
+
+## <a href="#future-features"></a>🔮 Future Features
+- send and receive data from API.
+- Submit and Refresh button function
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

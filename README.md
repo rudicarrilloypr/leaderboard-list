@@ -16,7 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [Future Features](#future-features)
+     - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -25,6 +25,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
+ - [Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [❓ FAQ (OPTIONAL)](#faq)
@@ -66,6 +67,14 @@
 ### Key Features <a name="key-features"></a>
 - [X] **Refresh Button**
 - [X] **Add scores to the Leaderboard**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+[Click here](https://rudicarrilloypr.github.io/leaderboard-list/dist/) to see the project's deployment on GitHub pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +147,7 @@ You can deploy this project using:
 <!--- Future Features ---->
 
 ## <a href="#future-features"></a>🔮 Future Features
-- Update style
+- Rocket flying around the background
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

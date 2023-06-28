@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5vw;
+  font-weight: 600;
+  color: rgb(255, 238, 0); /* Green color to resemble old game screens */
+  background: transparent; /* Now all elements with this rule have a transparent background */
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0 4vw;
+  margin: 0;
+  background-image: url('/assets/galaxy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 45%;
+  background-color: transparent;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleMain {
+  display: inline;
+  font-size: 6.5vw;
+  text-shadow: 2px 2px 4px rgba(99, 229, 238, 0.5); /* Añade una sombra de texto */
+}
+
+.recent-scores-title,
+.add-your-score-title {
+  font-size: 4vw;
+  text-shadow: 2px 2px 4px rgba(99, 229, 238, 0.5); /* Añade una sombra de texto */
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.table-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.7vw 0.3vw;
+}
+
+.table-entry:nth-child(even) {
+  background-color: transparent; /* Dark grey to resemble old game screens */
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.table-entry:nth-child(odd) {
+  background-color: transparent; /* Darker grey to resemble old game screens */
+}
+
+.container > * {
+  font-size: 2vw;
+  margin: 1vw;
+  font-weight: 600;
+}
+
+input {
+  width: 75%;
+  height: 2vw;
+  margin-bottom: 1vw;
+  border: rgb(0, 191, 255) solid 0.3vw;
+  font-size: 1.5vw;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.4);
+  color: rgb(246, 250, 246);
+}
+
+#scoreTable {
+  border: rgb(0, 191, 255) solid 0.3vw;
+  width: 100%;
+  background-color: transparent;
+}
+
+#scoreTable td {
+  color: rgb(247, 247, 247);
+}
+
+button {
+  font-size: 1.5vw;
+  margin-top: 0;
+  padding: 0.5vw;
+  box-shadow: 0.5vw 0.5vw 0 0;
+  font-weight: 600;
+  border: rgb(0, 191, 255) solid 0.3vw;
+  background: #000;
+  color: rgb(255, 238, 0);
+
+  /* Define una transición suave en todas las propiedades durante 0.3s */
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  /* Cuando pasas el mouse sobre el botón, se eleva ligeramente */
+  transform: translateY(-3px);
+
+  /* Define una sombra para que parezca que el botón está elevado */
+  box-shadow: 0 5px 15px rgba(0, 255, 0, 0.2);
+}
+
+button:active {
+  /* Al hacer clic en el botón, baja ligeramente para simular que se está presionando */
+  transform: translateY(2px);
+}
+
+.submit-button {
+  width: 30%;
+  align-self: flex-start;
+
+  /* Define una transición suave en todas las propiedades durante 0.3s */
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  /* Cuando pasas el mouse sobre el botón, se eleva ligeramente */
+  transform: translateY(-3px);
+
+  /* Define una sombra para que parezca que el botón está elevado */
+  box-shadow: 0 5px 15px rgba(0, 255, 0, 0.2);
+}
+
+.submit-button:active {
+  /* Al hacer clic en el botón, baja ligeramente para simular que se está presionando */
+  transform: translateY(2px);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

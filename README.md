@@ -92,7 +92,7 @@ Before you proceed, ensure that you have the following installed on your machine
 Clone this repository to your desired folder:
 
 ```sh
-  git clone git@github.com:sergio-usma/To-Do-List.git
+  git clone git@github.com:rudicarrilloypr/leaderboard-list.git
 ```
 
 ### Install
